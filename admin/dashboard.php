@@ -152,7 +152,7 @@ try {
                     : $post['content'];
 
                 // ---- safe image path (fallback) -----------------------------
-            $imageSrc = './content/upload/' . htmlspecialchars($post['image']);
+            $imageSrc = './upload/' . htmlspecialchars($post['image']);
                 ?>
             <article class="post-item">
                 <div class="post-thumb">

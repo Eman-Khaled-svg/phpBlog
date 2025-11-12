@@ -512,6 +512,7 @@ $site_title = "Admin Panel";
 
             footer {
                 width: 100%;
+                
             }
 
             .container-fluid {

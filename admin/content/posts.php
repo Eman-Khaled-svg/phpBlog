@@ -330,7 +330,7 @@ try {
                                     </td>
                                     <td>
                                         <?php if (!empty($row['image'])): ?>
-                                            <img src="./upload/<?= htmlspecialchars($row['image']) ?>" 
+                                            <img src="../upload/<?= htmlspecialchars($row['image']) ?>" 
                                                  alt="" class="post-image">
                                         <?php else: ?>
                                             <span style="color:#999">No img</span>
